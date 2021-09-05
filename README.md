@@ -38,7 +38,7 @@ Also, be sure your system has three times the space that your phone.</b>
 <code>cd ~/</code></br>
 </br>
 <b>Now on the MacOS computer back up the iPhone files on Desktop area. When completed, the "backup" folder should be on the Desktop:</b><br>
-<code>idevicebackup2 backup --full /home/x/Desktop/</code></br>
+<code>idevicebackup2 backup --full /Users/x/Desktop/</code></br>
 <br>
 <b>Next upload the "backup" folder to the Ubuntu laptop:</b><br>
 <code>rsync -HPSavx /home/x/Desktop/backup -e ssh -p 22 x@<hostIP>:/home/x/Desktop </code><br>
@@ -48,6 +48,8 @@ Also, be sure your system has three times the space that your phone.</b>
 <br>  
 <b>Decryp the backup. Password you set up earlier is needed. Decrypted files will be in "backup-decrypted" folder.:</b><br>
 <code>mvt-ios decrypt-backup -d /home/x/Desktop/backup-decrypted. /home/x/Desktop/backup</code><br>
+<br>
+(If the decryptor can't find the folder, add the phone's UDID (40-digit sequence of letters and numbers) as the last directory on the path. ex: /home/x/Desktop/backup/<UDID>)
 <br>
 <br>
 <b>Finally we are ready to check the iPhone files for Pegasus traces:</b><br>
