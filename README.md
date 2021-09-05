@@ -37,7 +37,9 @@ Also, be sure the Ubuntu system has at least two times the space of the iPhone b
 <b>Change to the home directory:</b><br>
 <code>cd ~/</code></br>
 </br>
-<b>Now on the MacOS computer back up the iPhone files on Desktop area. When completed, the "backup" folder should be on the Desktop:</b><br>
+<b>Now on the MacOS computer back up the iPhone files on Desktop area.</b><br>
+Instructions how: https://support.apple.com/en-us/HT205220
+
 <code>idevicebackup2 backup --full /Users/x/Desktop/</code></br>
 <br>
 <b>Next upload the "backup" folder to the Ubuntu laptop:</b><br>
