@@ -1,6 +1,6 @@
 
-# MVT Pegasus Spyware Checker Tutorial (Not ready Yet.)
-A (simpler?) tutorial.
+# MVT Pegasus Spyware Checker Tutorial
+A (simpler?) tutorial. 
 <br>
 <br>
 Needed:
@@ -49,20 +49,24 @@ Now back on <b>Ubuntu</b> user's Desktop area create a folder named: "decrypted-
 Now let's decrypt the backup. The password set during the backup process is now needed. When done, the decrypted files will be in "decrypted-backup" folder.:<br>
 <code>mvt-ios decrypt-backup -d /home/x/Desktop/backup-decrypted. /home/x/Desktop/backup</code><br>
 <br>
-* If the decryptor can't find the source folder, add the iPhone's UDID number as the last directory on the path, syntax: /home/x/Desktop/backup/UDID. 
-Use this command to find the iPhone's UDID:<br>
+* If the decryptor can't find the source folder, add the iPhone's UDID number as the last directory on the path, syntax: /home/x/Desktop/backup/UDID. Use this command to find the iPhone's UDID:<br>
 <code>ideviceinfo | grep UniqueDeviceID</code><br>
 <br>
-Finally we are ready to check the iPhone files for Pegasus spyware traces:<br>
+Change directory:<br>
+<code>cd /home/x/repos/mvt/mvt/ios</code>
 <br>
-<i>The last part of this tutorial is the easiest part, but I am running out of gas. Shall continue later on!</i>
-
-<br><br>
-
-
-
-
+Now download the pegasus.stix2 file from the AmnestyTech github content repo:<br>
+<code>wget https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/pegasus.stix </code><br>
+<br>
+Now the final step, run the following command to check for Pegasus spyware traces:
+mvt-ios check-fs /home/x/Desktop/decrypted-backup/ --output /home/x/Desktop/output/
+<br>
+Besides results shown on the screen, a folder named "output" with the results in files should on the Desktop area.
+<br>
+<br>
+<br>
 ---------------------------------------------------------------------------------------
 Tutorial based on: https://github.com/mvt-project/mvt <br>
+Questions/Comments/Corrections (twitter): @danarauz
 TAGS: #MobileVerificationToolkit #mvt #pegasus #spyware #amnistytech #mvt-project #nso #pegasusSpyware #surveillance #spying<br>
 <br>
