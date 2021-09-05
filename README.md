@@ -15,20 +15,16 @@ Heads up: Replace username "x", and directory "/home/x" for the ones in your sys
 
 ## The Process Starts Here
 <br>
-On <b>Ubuntu</b> install and run these commands:<br>
+On <b>Ubuntu</b> run these commands, one line at the time:<br>
 <code>sudo apt install python3-pip</code><br>
 <code>sudo apt install libusd-1.0-0</code><br>
 <code>sudo apt install sqlite3</code><br>
 <code>sudo apt install git</code><br>
-<br>
 <code>export PATH=$PATH:~/.local/bin</code><br>
-<br>
 <code>mkdir -p /home/x/repos</code><br>
 <code>cd /home/x/repos</code><br>
-<br>
 <code>git clone https://github.com/mvt-project/mvt.git</code><br>
 <code>cd mvt</code><br>
-<br>
 Install pip3. Include the dot at the end:<br>
 <code>pip3 install .</code><br>
 <br>
