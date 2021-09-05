@@ -1,6 +1,8 @@
 
 # MVT Pegasus Spyware Checker Tutorial
-A (simpler?) tutorial. 
+A (simpler?) tutorial. <br>
+<br>
+Because: <i>"An unprecedented leak of more than 50,000 phone numbers selected for surveillance by the customers of the israeli company NSO Group shows how this technology has been systematically abused for years. The Forbidden Stories consortium and Amnesty International had access to records of phone numbers selected by NSO clients in more than 50 countries since 2016." ~ https://forbiddenstories.org/about-the-pegasus-project/</i><br>
 <br>
 <br>
 Needed:
@@ -61,7 +63,7 @@ Now download the pegasus.stix2 file from the AmnestyTech github content repo:<br
 Now the final step, run the following command to check for Pegasus spyware traces:<br>
 <code>mvt-ios check-fs /home/x/Desktop/decrypted-backup/ --output /home/x/Desktop/output/</code><br>
 <br>
-Besides results shown on the screen, a folder named "output" with the results in files should on the Desktop area.<br>
+Besides the results shown on the screen, files with the results should be in the "output" folder.<br>
 <br>
 Thank you. 
 <br>
