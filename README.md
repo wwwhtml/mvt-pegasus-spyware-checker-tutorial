@@ -1,4 +1,4 @@
-# MVT Pegasus Spyware Checker Tutorial (NOT Ready Yet.)
+# MVT Pegasus Spyware Checker Tutorial (Not ready Yet.)
 A (simpler?) tutorial.
 <br>
 <br>
