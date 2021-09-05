@@ -26,16 +26,16 @@ On <b>Ubuntu</b> run these commands, one line at the time:<br>
 <code>git clone https://github.com/mvt-project/mvt.git</code><br>
 <code>cd mvt</code><br>
 <br>
-Then continue by install pip3, include the dot at the end of the line:<br>
+For the following command, please include the dot at the end of the line:<br>
 <code>pip3 install .</code><br>
 <br>
-Install the libimobiledevice utils.:<br>
+Now, still in <b>Ubuntu</b>, install the libimobiledevice utils:<br>
 <code>sudo apt install libimobiledevice-utils</code><br>
 <br>
-To check if libimobiledevice-utils works, connect the iPhone to the <b>Ubuntu</b> computer.<br>
-If first time, on the iPhone you may need to press the "Trust" button, so the connection between the iPhone and Ubuntu be allowed.<br>
-The output on the screen should show the iPhone information.<br>
+To check if libimobiledevice-utils works, connect the iPhone  to the <b>Ubuntu</b> computer.<br>
+If the first time connecting the iPhone, make sure the phone the phone is unlocked and that "Trust" button be pressed, so the connection between the iPhone and Ubuntu be allowed. Then run this command:<br>
 <code>ideviceinfo</code><br>
+The output of the above command should have shown the iPhone's information.<br>
 <br>
 Using the USB cable connect the iPhone to the <b>MacOS</b> computer. Create the iPhone backup, savind it on the Desktop area. The result should be a folder named "backup". Choose a encrypted and with a password.<br>
 Instructions on how: https://support.apple.com/en-us/HT205220<br>
