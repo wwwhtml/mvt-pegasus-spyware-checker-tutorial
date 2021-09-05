@@ -58,8 +58,8 @@ Change directory:<br>
 Now download the pegasus.stix2 file from the AmnestyTech github content repo:<br>
 <code>wget https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/pegasus.stix </code><br>
 <br>
-Now the final step, run the following command to check for Pegasus spyware traces:
-mvt-ios check-fs /home/x/Desktop/decrypted-backup/ --output /home/x/Desktop/output/
+Now the final step, run the following command to check for Pegasus spyware traces:<br>
+<code>mvt-ios check-fs /home/x/Desktop/decrypted-backup/ --output /home/x/Desktop/output/</code>
 <br>
 Besides results shown on the screen, a folder named "output" with the results in files should on the Desktop area.
 <br>
