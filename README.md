@@ -30,13 +30,11 @@ A (simpler?) tutorial.
 <b>Install the libimobiledevice utils.:</b><br>
 <code>sudo apt install libimobiledevice-utils</code><br>
 <br>
-<b>Connect the iPhone to the Ubuntu computer.</b><br>
-<b>You may need to press the "Trust" button that may show up on the iPhone.</b><br>
 <br>
-<b>To check if libimobiledevice-utils works. The output on the screen should show the iPhone information.</b><br>
+<b>To check if libimobiledevice-utils works, connect the iPhone to the Ubuntu computer.<b><br>
+<b>You may need to press the "Trust" button that may show up on the iPhone.</b><br>
+<b>The output on the screen should show the iPhone information.</b><br>
 <code>ideviceinfo</code><br>
-<b>To only show your device UDID number.</b><br>
-<code>ideviceinfo | grep UniqueDeviceID</code>
 <br>
 <b>Now on the <u>MacOS</u> computer: With the USB cable connect the iPhone. Create the iPhone backup, savind it on the Desktop area. The result should be a folder named "backup". Choose a encrypted and with a password.</b><br>
 Instructions on how: https://support.apple.com/en-us/HT205220<br>
