@@ -13,7 +13,7 @@ A (simpler?) tutorial.
 
 ## The Process Starts Here
 <br>
-<b>On Ubuntu install:</b><br>
+<b>On Ubuntu install and run these commands:</b><br>
 <code>sudo apt install python3-pip</code><br>
 <code>sudo apt install libusd-1.0-0</code><br>
 <code>sudo apt install sqlite3</code><br>
@@ -38,19 +38,21 @@ A (simpler?) tutorial.
 <b>To only show your device UDID number.</b><br>
 <code>ideviceinfo | grep UniqueDeviceID</code>
 <br>
-<b>Now on the MacOS computer: With the USB cable connect the iPhone. Create the iPhone backup, savind it on the Desktop area. The result should be a folder named "backup". Choose a encrypted and with a password.</b><br>
+<b>Now on the <u>MacOS</u> computer: With the USB cable connect the iPhone. Create the iPhone backup, savind it on the Desktop area. The result should be a folder named "backup". Choose a encrypted and with a password.</b><br>
 Instructions on how: https://support.apple.com/en-us/HT205220<br>
 <br>
 <b>Next upload the "backup" folder to the Ubuntu laptop:</b><br>
 <code>rsync -HPSavx /home/x/Desktop/backup -e ssh -p 22 x@<RemoteHostIP>:/home/x/Desktop </code><br>
 <br>
-<b>Now on back on Ubuntu, create the "decrypted-backup" folder. The backup needs to be decrypted to run the scan on it.: </b><br>
+<b>Now back on <u>Ubuntu</u>, create the "decrypted-backup" folder. The backup needs to be decrypted to run the scan on it.:</b><br>
 <code>mkdir -p /home/x/Desktop/decrypted-backup </code><br>
 <br>  
 <b>Decrypt the backup. Password you set up earlier is needed. Decrypted files will be in "decrypted-backup" folder.:</b><br>
 <code>mvt-ios decrypt-backup -d /home/x/Desktop/backup-decrypted. /home/x/Desktop/backup</code><br>
 <br>
-(If the decryptor can't find the folder, add the phone's UDID as the last directory on the path syntax: /home/x/Desktop/backup/UDID )
+* If the decryptor can't find the folder, add the phone's UDID as the last directory on the path syntax: /home/x/Desktop/backup/UDID <br>
+Use this command to find the iPhone's UDID:<br>
+<code>ideviceinfo | grep UniqueDeviceID</code><br>
 <br>
 <b>Finally we are ready to check the iPhone files for Pegasus traces:</b><br>
 <br>
