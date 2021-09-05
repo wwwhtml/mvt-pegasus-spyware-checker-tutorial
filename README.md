@@ -59,14 +59,14 @@ Now download the pegasus.stix2 file from the AmnestyTech github content repo:<br
 <code>wget https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/pegasus.stix </code><br>
 <br>
 Now the final step, run the following command to check for Pegasus spyware traces:<br>
-<code>mvt-ios check-fs /home/x/Desktop/decrypted-backup/ --output /home/x/Desktop/output/</code>
+<code>mvt-ios check-fs /home/x/Desktop/decrypted-backup/ --output /home/x/Desktop/output/</code><br>
 <br>
-Besides results shown on the screen, a folder named "output" with the results in files should on the Desktop area.
+Besides results shown on the screen, a folder named "output" with the results in files should on the Desktop area.<br>
 <br>
-<br>
+Thank you. 
 <br>
 ---------------------------------------------------------------------------------------<br>
-Tutorial based on: https://github.com/mvt-project/mvt <br>
-  Questions/Comments/Corrections (twitter): <a href="url">@danarauz</a> <br>
+Tutorial based on:<a href="https://docs.mvt.re/en/latest/index.html">https://docs.mvt.re/en/latest/index.html</a> and <a href="https://github.com/mvt-project/mvt">https://github.com/mvt-project/mvt</a><br>
+Comments/Corrections/etc (twitter): <a href="https://www.twitter.com/danarauz">@danarauz</a> <br>
 TAGS: #MobileVerificationToolkit #mvt #pegasus #spyware #amnistytech #mvt-project #nso #pegasusSpyware #surveillance #spying<br>
 <br>
