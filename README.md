@@ -49,7 +49,7 @@ Now back on <b>Ubuntu</b> user's Desktop area create a folder named: "decrypted-
 Now let's decrypt the backup. The password set during the backup process is now needed. When done, the decrypted files will be in "decrypted-backup" folder.:<br>
 <code>mvt-ios decrypt-backup -d /home/x/Desktop/backup-decrypted. /home/x/Desktop/backup</code><br>
 <br>
-* If the decryptor can't find the source folder, add the iPhone's UDID number as the last directory on the path, syntax: /home/x/Desktop/backup/UDID <br>
+* If the decryptor can't find the source folder, add the iPhone's UDID number as the last directory on the path, syntax: /home/x/Desktop/backup/UDID. 
 Use this command to find the iPhone's UDID:<br>
 <code>ideviceinfo | grep UniqueDeviceID</code><br>
 <br>
