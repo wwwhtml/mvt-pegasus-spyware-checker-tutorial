@@ -39,14 +39,12 @@ A (simpler?) tutorial.
 <code>cd ~/</code></br>
 </br>
 
-<br>Now on the MacOS computer back up the iPhone files on Desktop area.</b><br>
-Instructions how: https://support.apple.com/en-us/HT205220
+<b>Now on the MacOS computer back up the iPhone files on Desktop area.</b><br>
+Instructions how: https://support.apple.com/en-us/HT205220<br>
 <br>
 <b>Next upload the "backup" folder to the Ubuntu laptop:</b><br>
 <code>rsync -HPSavx /home/x/Desktop/backup -e ssh -p 22 x@<hostIP>:/home/x/Desktop </code><br>
 <br>
-<b>If instead you prefer to make the iPhone backup on Ubuntu:</b> 
-<code>idevicebackup2 backup --full /Users/x/Desktop/</code></br>
 <br>
 <b>Continue on Ubuntu, create the "decrypted-backup" folder: </b><br>
 <code>mkdir -p /home/x/Desktop/decrypted-backup </code><br>
