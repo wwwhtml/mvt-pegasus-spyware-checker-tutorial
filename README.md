@@ -49,7 +49,7 @@ Also, be sure the Ubuntu system has at least two times the space of the iPhone b
 <b>Decryp the backup. Password you set up earlier is needed. Decrypted files will be in "backup-decrypted" folder.:</b><br>
 <code>mvt-ios decrypt-backup -d /home/x/Desktop/backup-decrypted. /home/x/Desktop/backup</code><br>
 <br>
-(If the decryptor can't find the folder, add the phone's UDID (40-digit sequence of letters and numbers) as the last directory on the path. ex: /home/x/Desktop/backup/<UDID>)
+(If the decryptor can't find the folder, add the phone's UDID (40-digit sequence of letters and numbers) as the last directory on the path. ex: /home/x/Desktop/backup/UDID)
 <br>
 <br>
 <b>Finally we are ready to check the iPhone files for Pegasus traces:</b><br>
