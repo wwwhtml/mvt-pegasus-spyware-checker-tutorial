@@ -68,5 +68,5 @@ The last part of this tutorial is the easiest part, but I am running out of gas.
 
 ---------------------------------------------------------------------------------------
 Tutorial based on: https://github.com/mvt-project/mvt <br>
-TAGS: #mvt #pegasus #spyware #amnistytech  <br>
+TAGS: #mvt #pegasus #spyware #amnistytech #mvt-project #nso #pegasusSpyware #surveillance #spying<br>
 <br>
