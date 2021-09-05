@@ -65,8 +65,8 @@ Besides results shown on the screen, a folder named "output" with the results in
 <br>
 <br>
 <br>
----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------<br>
 Tutorial based on: https://github.com/mvt-project/mvt <br>
-Questions/Comments/Corrections (twitter): @danarauz
+  Questions/Comments/Corrections (twitter): <a href="url">@danarauz</a> <br>
 TAGS: #MobileVerificationToolkit #mvt #pegasus #spyware #amnistytech #mvt-project #nso #pegasusSpyware #surveillance #spying<br>
 <br>
