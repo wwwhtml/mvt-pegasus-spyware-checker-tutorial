@@ -53,7 +53,7 @@ If mvt-ios can't find the source folder, you may need to add the iPhone's UDID n
 <code>ideviceinfo | grep UniqueDeviceID</code><br>
 <br>
 Change directory:<br>
-<code>cd /home/x/repos/mvt/mvt/ios</code>
+<code>cd /home/x/repos/mvt/mvt/ios</code><br>
 <br>
 Now download the pegasus.stix2 file from the AmnestyTech github content repo:<br>
 <code>wget https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/pegasus.stix </code><br>
