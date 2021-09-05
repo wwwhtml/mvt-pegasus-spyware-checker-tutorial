@@ -25,13 +25,12 @@ On <b>Ubuntu</b> run these commands, one line at the time:<br>
 <code>cd /home/x/repos</code><br>
 <code>git clone https://github.com/mvt-project/mvt.git</code><br>
 <code>cd mvt</code><br>
-
+<br>
 Then continue by install pip3, include the dot at the end of the line:<br>
 <code>pip3 install .</code><br>
 <br>
 Install the libimobiledevice utils.:<br>
 <code>sudo apt install libimobiledevice-utils</code><br>
-<br>
 <br>
 To check if libimobiledevice-utils works, connect the iPhone to the <b>Ubuntu</b> computer.<br>
 If first time, on the iPhone you may need to press the "Trust" button, so the connection between the iPhone and Ubuntu be allowed.<br>
