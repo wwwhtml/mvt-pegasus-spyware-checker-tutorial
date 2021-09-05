@@ -18,6 +18,8 @@ Heads up: Replace username "x", and directory "/home/x" for the ones in your sys
 ## The Process Starts Here
 <br>
 On <b>Ubuntu</b> run these commands, one line at the time:<br>
+<code>sudo apt update</code><br>
+<code>sudo apt upgrade</code><br>
 <code>sudo apt install python3-pip</code><br>
 <code>sudo apt install libusd-1.0-0</code><br>
 <code>sudo apt install sqlite3</code><br>
