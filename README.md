@@ -25,7 +25,8 @@ On <b>Ubuntu</b> run these commands, one line at the time:<br>
 <code>cd /home/x/repos</code><br>
 <code>git clone https://github.com/mvt-project/mvt.git</code><br>
 <code>cd mvt</code><br>
-Install pip3. Include the dot at the end:<br>
+
+Then continue by install pip3, include the dot at the end of the line:<br>
 <code>pip3 install .</code><br>
 <br>
 Install the libimobiledevice utils.:<br>
