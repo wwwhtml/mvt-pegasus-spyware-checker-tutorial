@@ -30,6 +30,7 @@ A (simpler?) tutorial.
 <b>Install the libimobiledevice utils.:</b><br>
 <code>sudo apt install libimobiledevice-utils</code><br>
 <br>
+<b>Connect the iPhone to the Ubuntu computer. You may need to press the "Trust" button that may show up on the iPhone.</b><br>
 <b>To check if libimobiledevice-utils is working.</b><br>
 <code>ideviceinfo</code><br>
 <br>
