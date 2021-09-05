@@ -70,7 +70,7 @@ Besides the results shown on the screen, files with the results should be in the
 Thank you. 
 <br>
 ---------------------------------------------------------------------------------------<br>
-Tutorial based on:<a href="https://docs.mvt.re/en/latest/index.html">https://docs.mvt.re/en/latest/index.html</a> and <a href="https://github.com/mvt-project/mvt">https://github.com/mvt-project/mvt</a><br>
+Tutorial based 100% on: <a href="https://docs.mvt.re/en/latest/index.html">https://docs.mvt.re/en/latest/index.html</a> and <a href="https://github.com/mvt-project/mvt">https://github.com/mvt-project/mvt</a><br>
 Comments/Corrections/etc (twitter): <a href="https://www.twitter.com/danarauz">@danarauz</a> <br>
 TAGS: #MobileVerificationToolkit #mvt #pegasus #spyware #amnistytech #mvt-project #nso #pegasusSpyware #surveillance #spying<br>
 <br>
