@@ -30,30 +30,27 @@ A (simpler?) tutorial.
 <b>Install the libimobiledevice utils.:</b><br>
 <code>sudo apt install libimobiledevice-utils</code><br>
 <br>
-<b>Connect the iPhone to the Ubuntu computer. You may need to press the "Trust" button that may show up on the iPhone.</b><br>
+<b>Connect the iPhone to the Ubuntu computer.</b><br>
+<b>You may need to press the "Trust" button that may show up on the iPhone.</b><br>
 <br>
-<b>To check if libimobiledevice-utils is working. The output on the screen will show the iPhone information.</b><br>
+<b>To check if libimobiledevice-utils works. The output on the screen should show the iPhone information.</b><br>
 <code>ideviceinfo</code><br>
+<b>To only show your device UDID number.</b><br>
+<code>ideviceinfo | grep UniqueDeviceID</code>
 <br>
-<b>Change to the home directory:</b><br>
-<code>cd ~/</code></br>
-</br>
-
-<b>Now on the MacOS computer back up the iPhone files on Desktop area.</b><br>
-Instructions how: https://support.apple.com/en-us/HT205220<br>
+<b>Now on the MacOS computer: With the USB cable connect the iPhone. Create the iPhone backup, savind it on the Desktop area. The result should be a folder named "backup". Choose a encrypted and with a password.</b><br>
+Instructions on how: https://support.apple.com/en-us/HT205220<br>
 <br>
 <b>Next upload the "backup" folder to the Ubuntu laptop:</b><br>
-<code>rsync -HPSavx /home/x/Desktop/backup -e ssh -p 22 x@<hostIP>:/home/x/Desktop </code><br>
+<code>rsync -HPSavx /home/x/Desktop/backup -e ssh -p 22 x@<RemoteHostIP>:/home/x/Desktop </code><br>
 <br>
-<br>
-<b>Continue on Ubuntu, create the "decrypted-backup" folder: </b><br>
+<b>Now on back on Ubuntu, create the "decrypted-backup" folder. The backup needs to be decrypted to run the scan on it.: </b><br>
 <code>mkdir -p /home/x/Desktop/decrypted-backup </code><br>
 <br>  
 <b>Decrypt the backup. Password you set up earlier is needed. Decrypted files will be in "decrypted-backup" folder.:</b><br>
 <code>mvt-ios decrypt-backup -d /home/x/Desktop/backup-decrypted. /home/x/Desktop/backup</code><br>
 <br>
 (If the decryptor can't find the folder, add the phone's UDID as the last directory on the path syntax: /home/x/Desktop/backup/UDID )
-<br>
 <br>
 <b>Finally we are ready to check the iPhone files for Pegasus traces:</b><br>
 <br>
