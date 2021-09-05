@@ -6,11 +6,11 @@ A (simpler?) tutorial.
 * iPhone 
 * USB Cable to connect iPhone with Laptop
 * Laptop MacOS (to create iPhone encrypted backup)
-* Laptop with Ubuntu Linux (to ran the MVT Pegasus spyware checker)
-* Internet access to download requird software.
+* Laptop with Ubuntu Linux (to run the MVT Pegasus spyware checker)
+* Internet access to download required software.
 
 <b>Note:</b> Replace username "x", and directory "/home/x" for the ones in your system. 
-Also, be sure your system has three times the space that your phone.</b>
+Also, be sure the Ubuntu system has at least two times the space of the iPhone backup.</b>
 
 ## The Process Starts Here
 <br>
