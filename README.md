@@ -15,7 +15,7 @@ Heads up: Replace username "x", and directory "/home/x" for the ones in your sys
 
 ## The Process Starts Here
 <br>
-On Ubuntu install and run these commands:<br>
+On <b>Ubuntu</b> install and run these commands:<br>
 <code>sudo apt install python3-pip</code><br>
 <code>sudo apt install libusd-1.0-0</code><br>
 <code>sudo apt install sqlite3</code><br>
@@ -36,15 +36,15 @@ Install the libimobiledevice utils.:<br>
 <code>sudo apt install libimobiledevice-utils</code><br>
 <br>
 <br>
-To check if libimobiledevice-utils works, connect the iPhone to the Ubuntu computer.<br>
-You may need to press the "Trust" button that may show up on the iPhone.<br>
+To check if libimobiledevice-utils works, connect the iPhone to the <b>Ubuntu</b> computer.<br>
+If first time, on the iPhone you may need to press the "Trust" button, so the connection between the iPhone and Ubuntu be allowed.<br>
 The output on the screen should show the iPhone information.<br>
 <code>ideviceinfo</code><br>
 <br>
 Using the USB cable connect the iPhone to the <b>MacOS</b> computer. Create the iPhone backup, savind it on the Desktop area. The result should be a folder named "backup". Choose a encrypted and with a password.<br>
 Instructions on how: https://support.apple.com/en-us/HT205220<br>
 <br>
-Next upload the "backup" folder to the Ubuntu laptop:<br>
+Next upload the "backup" folder to the <b>Ubuntu</b> laptop:<br>
 <code>rsync -HPSavx /home/x/Desktop/backup -e ssh -p 22 x@<RemoteHostIP>:/home/x/Desktop </code><br>
 <br>
 Now back on <b>Ubuntu</b> user's Desktop area create a folder named: "decrypted-backup".<br> 
